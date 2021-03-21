@@ -47,12 +47,7 @@ function makeUnderline(elem) {
 	}
 }
 
-/**
- * Toggle the style textAlign attribute
- * Toggle the active state for the align butttons
- * HINT: Use the style property of the element
- * HINT: Make sure to untoggle the active state for all other align buttons
- */
+
 function alignText(elem, alignType) {
 	elem.classList.toggle('active');
 	document.getElementById('text-output').style.textAlign = alignType;
